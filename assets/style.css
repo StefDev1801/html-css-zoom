@@ -32,12 +32,12 @@ img{
 }
 
 main{
-    height: 85vh;
+    height: 90vh;
     width: 100vw;
     background-color: black;
 }
 footer{
-    height: 15vh;
+    height: 10vh;
     width: 100vw;
     background-color: var(--zoom-footer)
 }
@@ -76,7 +76,7 @@ footer{
     align-items: center;
 }
 .end_meeting{
-    height: 15vh;
+    height: 10vh;
     background-color: var(--zoom-secondary);
     color: var(--zoom-danger);
     display: flex;
