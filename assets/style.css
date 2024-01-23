@@ -37,6 +37,9 @@ footer{
     width: 100vw;
     background-color: blue;
 }
+.site_main{
+    height: 80%;
+}
 
 .container{
         width: 80%;
