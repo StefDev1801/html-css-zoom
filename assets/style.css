@@ -8,15 +8,39 @@
     --zoom-buttons_text:#f8fbf8;
     --zoom-secondary:#4b4b4c;
     --zoom-footer:#222222;
-    --zoom-end_call:#ac2129;
+    --zoom-danger:#ac2129;
 }
 
+/* Responsive image */
+img{
+    max-width: 100%;
+    /* height: la scegli tu; */
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    /* in realtà wrap non viene utilizzato però per ora lo metto per ricordarmi in futuro quando le img saranno responsive */
+}
+.column{
+    width: calc((100% / 14) * 2);
+}
 
 main{
     height: 90vh;
+    width: 100vw;
     background-color: red;
 }
 footer{
     height: 10vh;
+    width: 100vw;
     background-color: blue;
+}
+
+.container{
+        width: 80%;
+        max-width: 1500px;
+        margin: auto;
+}
+.debug .container{
+    background-color: aqua;
 }
