@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --zoom-share_screen:#4ac516;
+    --zoom-buttons_text:#f8fbf8;
+    --zoom-secondary:#4b4b4c;
+    --zoom-footer:#222222;
+    --zoom-end_call:#ac2129;
+}
+
+
+main{
+    height: 90vh;
+    background-color: red;
+}
+footer{
+    height: 10vh;
+    background-color: blue;
+}
