@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: var(--zoom-buttons_text);
 }
 :root{
     --zoom-share_screen:#4ac516;
@@ -14,6 +15,7 @@
 /* Responsive image */
 img{
     max-width: 100%;
+    display: flex;
     /* height: la scegli tu; */
 }
 .row{
@@ -28,7 +30,7 @@ img{
 main{
     height: 90vh;
     width: 100vw;
-    background-color: red;
+    background-color: black;
 }
 footer{
     height: 10vh;
@@ -40,7 +42,19 @@ footer{
         width: 80%;
         max-width: 1500px;
         margin: auto;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
 }
 .debug .container{
-    background-color: aqua;
+}
+
+.container_mountain{
+    position: relative;
+}
+.mic-and-name{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 1rem ;
+    background-color: #4b4b4c9a;
 }
